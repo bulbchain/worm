@@ -1,0 +1,6 @@
+{
+  "name": "NARKY - Cyberpunk Neon Soil Arena",
+  "description": "Dark neon cyberpunk underground soil creatures multiplayer arena with Solana betting, real-time physics, and deep subterranean leaderboards.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

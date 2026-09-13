@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-sans: 'Space Grotesk', sans-serif;
+    --font-mono: 'Space Mono', monospace;
+  }
+  
+  html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #080b0f;
+    font-family: var(--font-sans);
+    color: #e1e2e8;
+    overflow-x: hidden;
+  }
+}
+
+.font-tech {
+  font-family: 'Space Mono', monospace;
+}
+
+.font-display {
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+/* Subterranean Glow Utilities */
+.glow-cyan {
+  text-shadow: 0 0 12px rgba(0, 245, 212, 0.6), 0 0 24px rgba(0, 245, 212, 0.3);
+}
+
+.glow-amber {
+  text-shadow: 0 0 12px rgba(245, 158, 11, 0.6), 0 0 24px rgba(245, 158, 11, 0.3);
+}
+
+.glow-lime {
+  text-shadow: 0 0 12px rgba(163, 230, 53, 0.6), 0 0 24px rgba(163, 230, 53, 0.3);
+}
+
+.glow-box-cyan {
+  box-shadow: 0 0 20px rgba(0, 245, 212, 0.35), inset 0 0 15px rgba(0, 245, 212, 0.1);
+}
+
+.glow-box-amber {
+  box-shadow: 0 0 20px rgba(245, 158, 11, 0.35), inset 0 0 15px rgba(245, 158, 11, 0.1);
+}
+
+/* Custom Scrollbar for subterranean styling */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #080b0f;
+}
+::-webkit-scrollbar-thumb {
+  background: #1e3545;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #00f5d4;
+}
